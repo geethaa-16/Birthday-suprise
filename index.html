@@ -342,7 +342,12 @@ document.getElementById("welcomePopup").style.display="none";
 
 document.getElementById("loginBox").style.display="block";
 
-document.getElementById("bgMusic").play();
+let music = document.getElementById("bgMusic");
+
+music.currentTime = 32;
+
+music.play();
+
 
 }
 
